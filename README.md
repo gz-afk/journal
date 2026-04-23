@@ -23,6 +23,6 @@ Track your thoughts, mood, and daily spending — all in one place.
 
 # ━━━━━━━━━━━━━━━━━━━━━━━
 
-# ⭐ Simple • Fast • Personal
+#  Simple • Fast • Personal
 
 # ━━━━━━━━━━━━━━━━━━━━━━━
