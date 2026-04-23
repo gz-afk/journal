@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📝 My Daily Journal</h1>
+
+<div class="container">
+
+  <!-- Journal -->
+  <div class="journal-box">
+    <h2>Journal</h2>
+    <textarea id="journal" placeholder="Write your thoughts..."></textarea>
+  </div>
+
+  <!-- Mood -->
+  <div class="box">
+    <h2>Mood</h2>
+    <input type="range" min="1" max="10" id="moodSlider">
+    <p id="moodDisplay">🙂</p>
+  </div>
+
+  <!-- Finance -->
+  <div class="box">
+    <h2>Finance</h2>
+    <input type="number" id="money" placeholder="Amount ₹">
+    <button onclick="saveMoney()">Save</button>
+    <p id="moneyDisplay"></p>
+  </div>
+
+  <!-- Calendar -->
+  <div class="box">
+    <h2>Today</h2>
+    <p id="date"></p>
+  </div>
+
+  <!-- Quote -->
+  <div class="box">
+    <h2>Quote</h2>
+    <p id="quote"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
